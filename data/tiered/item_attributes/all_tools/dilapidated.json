@@ -19,13 +19,25 @@
     "attributes": [
         {
             "type": "tiered:generic.durable",
-            "operation": "MULTIPLY_TOTAL",
-            "amount": -0.3
+            "modifier": {
+                "name": "tiered:dilapidated",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": -0.3
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
         },
         {
             "type": "tiered:generic.dig_speed",
-            "operation": "MULTIPLY_TOTAL",
-            "amount": -0.1
+            "modifier": {
+                "name": "tiered:dilapidated",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": -0.1
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
         }
     ]
 }

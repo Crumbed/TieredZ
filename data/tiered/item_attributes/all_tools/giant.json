@@ -36,8 +36,11 @@
                 "name": "tiered:giant",
                 "operation": "ADDITION",
                 "amount": 2
-            },
-        }
+            }
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
         {
             "type": "generic.movement_speed",
             "modifier": {

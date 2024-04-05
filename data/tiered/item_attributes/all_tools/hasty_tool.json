@@ -1,5 +1,5 @@
 {
-    "id": "tiered:hasteful",
+    "id": "tiered:hasty",
     "verifiers": [
         {
             "tag": "c:pickaxes"
@@ -22,7 +22,7 @@
         {
             "type": "tiered:generic.dig_speed",
             "modifier": {
-                "name": "tiered:hasteful",
+                "name": "tiered:hasty",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": 0.50
             },
@@ -33,7 +33,7 @@
         {
             "type": "tiered:generic.durable",
             "modifier": {
-                "name": "tiered:hasteful",
+                "name": "tiered:hasty",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": -0.15
             },

@@ -1,0 +1,31 @@
+{
+    "id": "tiered:dilapidated",
+    "verifiers": [
+        {
+            "tag": "c:axes",
+        },
+        {
+            "tag": "c:pickaxes",
+        },
+        {
+            "tag": "c:shovels",
+        },
+        {
+            "tag": "c:hoes",
+        },
+    ],
+    "weight": 30,
+    "style": { "color": "gray" },
+    "attributes": [
+        {
+            "type": "tiered:generic.durable",
+            "operation": "MULTIPLY_TOTAL",
+            "amount": -0.3
+        },
+        {
+            "type": "tiered:generic.dig_speed",
+            "operation": "MULTIPLY_TOTAL",
+            "amount": -0.1
+        }
+    ]
+}

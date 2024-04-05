@@ -1,0 +1,64 @@
+{
+    "id": "tiered:light",
+    "verifiers": [
+        {
+            "tag": "c:axes"
+        },
+        {
+            "tag": "c:pickaxes"
+        },
+        {
+            "tag": "c:shovels"
+        },
+        {
+            "tag": "c:hoes"
+        }
+    ],
+    "weight": 15,
+    "style": {
+        "color": "blue"
+    },
+    "attributes": [
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:light",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": -0.15
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "tiered:generic.dig_speed",
+            "modifier": {
+                "name": "tiered:light",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.35
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "generic.movement_speed",
+            "modifier": {
+                "name": "tiered:light",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.10
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "reach-entity-attributes:reach",
+            "modifier": {
+                "name": "tiered:light",
+                "operation": "ADDITION",
+                "amount": -1
+            },
+        }
+    ]
+}

@@ -2,16 +2,16 @@
     "id": "tiered:dilapidated",
     "verifiers": [
         {
-            "tag": "c:axes",
+            "tag": "c:axes"
         },
         {
-            "tag": "c:pickaxes",
+            "tag": "c:pickaxes"
         },
         {
-            "tag": "c:shovels",
+            "tag": "c:shovels"
         },
         {
-            "tag": "c:hoes",
+            "tag": "c:hoes"
         },
     ],
     "weight": 30,
